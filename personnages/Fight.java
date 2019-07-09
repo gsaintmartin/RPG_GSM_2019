@@ -127,7 +127,7 @@ public class Fight {
 
 		double attackRealisation = 0.9 + (level * 0.1) + (agility * 0.05) + Math.random();
 
-		System.out.println("realisation : " + attackRealisation);
+		//System.out.println("realisation : " + attackRealisation);
 
 		if (attackRealisation >= 1.0) {
 
