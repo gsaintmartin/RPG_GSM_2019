@@ -193,10 +193,7 @@ public class Fight {
 																								// réussir une attaque
 																								// physique
 
-			System.out.println(level);
-			System.out.println(agility);
-
-			System.out.println(attackRealisation);
+			
 
 			if (attackRealisation >= 1.0) {
 
