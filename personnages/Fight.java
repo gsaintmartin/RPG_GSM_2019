@@ -13,7 +13,7 @@ public class Fight {
 		System.out.println("1. Attaquer avec votre épée (attaque physique)" + "\n");
 		System.out.println("2. Attaquer avec un sort (attaque magique)" + "\n");
 		System.out.println("3. Fuir " + "\n");
-		System.out.println("4. CHEAT REFILL DOCTOR " + "\n");
+		//System.out.println("4. CHEAT REFILL DOCTOR " + "\n");
 
 		Scanner sc = new Scanner(System.in);
 
@@ -76,14 +76,15 @@ public class Fight {
 				break;
 			}
 
-			if (choix == 4) {
-
-				Doctor.giveHealth(player);
-
-				System.out.println("********** CHEATER **********");
-				System.out.println("******************** COWARD ******************" + "\n");
-				break;
-			} // sc.close();
+			/*
+			 * if (choix == 4) {
+			 * 
+			 * Doctor.giveHealth(player);
+			 * 
+			 * System.out.println("********** CHEATER **********");
+			 * System.out.println("******************** COWARD ******************" + "\n");
+			 * break; }
+			 */// sc.close();
 
 		}
 	}
@@ -98,7 +99,7 @@ public class Fight {
 
 		double attackRealisation = 0.7 + (level * 0.1) + (agility * 0.05) + Math.random();
 
-		System.out.println("realisation : " + attackRealisation);
+		//System.out.println("realisation : " + attackRealisation);
 
 		if (attackRealisation >= 1.0) {
 
